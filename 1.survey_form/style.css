@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("img/pexels-photo-689451.jpeg");
+  background-position: center;
+  background-size: 100% auto;
+  font-family: "Courier New", Courier, monospace;
+}
+#header-div {
+  background-color: whitesmoke;
+  width: 50%;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  border-bottom: 1px solid grey;
+  margin-top: 50px;
+}
+
+#data {
+  width: 100%;
+  text-align: center;
+  padding-top: 5%;
+  display: inline-block;
+}
+
+#title {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#description {
+  text-align: center;
+}
+
+#main-div {
+  background-color: whitesmoke;
+  width: 50%;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  border-top: 0;
+  margin-bottom: 50px;
+}
+#name {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+#email {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+#number {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+#select {
+  margin-bottom: 20px;
+}
+
+#radio-btn {
+  margin-bottom: 20px;
+}
+
+#submit {
+  height: 30px;
+  width: 60px;
+  position: absolute;
+  right: 40%;
+}
+
+#textarea {
+  width: 50%;
+  resize: none;
+  margin-bottom: 10px;
+}
+
+#check {
+  margin-bottom: 20px;
+}
+
+.question {
+  margin-bottom: 5px;
+}
