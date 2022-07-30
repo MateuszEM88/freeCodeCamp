@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+   
+    <header>
+          <div id="header-div">
+            <h1 id="title">My first survey form.</h1>
+            <p id="description">Thank you for taking the time to help me get a job!</p>
+          </div>
+    </header>
+    <main></main>
+        <div id="main-div">
+            <form id="survey-form">
+            <div id="data">   
+                <div>
+                  <div>
+                    <label id="name-label">Who are you?</label>
+                  </div>  
+                  <div>
+                    <input id="name" type="text" required placeholder="Tell me your name.">
+                  </div> 
+                </div>
+                <div>
+                   <div>
+                    <label id="email-label">E-mail</label>
+                   </div> 
+                   <div> 
+                    <input id="email" type="email" required placeholder="What's your e-mail address?">
+                   </div> 
+                </div>
+                <div>
+                    <div>
+                        <label id="number-label">Phone number</label>
+                    </div>
+                    <div>
+                        <input id="number" type="number" min="4" max="10" placeholder="Let me call you!">
+                    </div>
+                </div>
+               
+            <div id="select">
+                <div class="question">
+                    <label>Do you like my survey?</label>
+                </div>
+                <div> 
+                    <select id="dropdown">
+                        <option>A lot!</option>
+                        <option>Very much!</option>  
+                    </select>
+                </div>       
+            </div>
+            <div class="radio-btn">
+                <div class="question">
+                    <label id="radio">What do you like to drink?</label>
+                </div>
+                <div>
+                    <label>Tea</label>
+                    <input type="radio" name="radio" value="1">
+                    <label>Coffee</label>
+                    <input type="radio" name="radio" value="2">
+                </div>
+            </div>
+            <div id="check">
+                <label>Sugar?</label>
+                <input type="checkbox" value="1">
+                <label>Milk?</label>
+                <input type="checkbox" value="2">
+            </div>
+            <div>
+                <textarea id="textarea" placeholder="Something to add?"></textarea>
+            </div>
+            <div>
+                <button id="submit" type="submit">Submit!</button>
+            </div>
+            </div>   
+            </form> 
+
+        </div>
+    </main>
+    </body>
+</body>
+</html>
